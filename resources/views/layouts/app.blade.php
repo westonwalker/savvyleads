@@ -24,19 +24,17 @@
 
         <div class="flex flex-col w-0 flex-1 overflow-hidden">
 
+
+            <header class="pt-6">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+                    <h1 class="text-2xl font-semibold text-gray-900">{{ $header }}</h1>
+                </div>
+            </header>
+            <x-flash></x-flash>
             <main class="flex-1 relative overflow-y-auto focus:outline-none">
                 <div class="py-6">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-                        <h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
-                    </div>
-                    <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-                        <!-- Replace with your content -->
-                        <div class="py-4">
-                            <main>
-                                {{ $slot }}
-                            </main>
-                        </div>
-                        <!-- /End replace -->
+                        {{ $slot }}
                     </div>
                 </div>
             </main>

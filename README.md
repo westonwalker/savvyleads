@@ -1,5 +1,27 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+## SavvyLeads
+
+SavvyLeads is a platform to generate leads for small, service based companies. It was created to give small business an effective, transparent application to generate more business through seo and sem campaigns.
+
+## Technical
+
+- Laravel 8
+- Mysql 5.7
+- Initial project was created with Laravel Breeze setup.
+- Database tables are created with migrations.
+- Utilizes standard blade templates and components.
+- Uses the Sushi package by Caleb Prorzio for some tables.
+- Admin middleware handles authorization for some pages only meant for admins.
+
+## Local Setup
+
+- git clone project_url
+- composer install
+- npm install
+- npm run dev
+
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
